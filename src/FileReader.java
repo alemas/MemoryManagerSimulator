@@ -30,10 +30,10 @@ public class FileReader {
 					finalAddress = Integer.parseInt(lineValues[0]);
 					break;
 				default:
-					if (lineValues[0] == "S") {
+					if (lineValues[0].equals("S")) {
 						int amount = Integer.parseInt(lineValues[1]);
 						operations.add(new Operation(OperationType.REQUEST_MEMORY, amount));
-					} else if (lineValues[0] == "L") {
+					} else if (lineValues[0].equals("L")) {
 						int amount = Integer.parseInt(lineValues[1]);
 						operations.add(new Operation(OperationType.FREE_MEMORY, amount));
 					}
