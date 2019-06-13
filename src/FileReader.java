@@ -32,7 +32,7 @@ public class FileReader {
 				default:
 					if (lineValues[0].equals("S")) {
 						int amount = Integer.parseInt(lineValues[1]);
-						operations.add(new Operation(OperationType.REQUEST_MEMORY, amount));
+						operations.add(new Operation(OperationType.ALLOC_MEMORY, amount));
 					} else if (lineValues[0].equals("L")) {
 						int amount = Integer.parseInt(lineValues[1]);
 						operations.add(new Operation(OperationType.FREE_MEMORY, amount));
@@ -46,7 +46,7 @@ public class FileReader {
 			e.printStackTrace();
 		}
 		
-		return new MemoryManager(initialAddress, finalAddress, operations);
+		return new MemoryManager(initialAddress, finalAddress - initialAddress + 1, operations);
 	}
 
 }

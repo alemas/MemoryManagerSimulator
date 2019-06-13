@@ -10,7 +10,7 @@ public class MemoryBlock {
 	public int size;
 
 	// Indica se o bloco está sendo usado ou não
-	public boolean inUse = true;
+	public boolean inUse = false;
 
 	public MemoryBlock(int initialAddress, int size) {
 		super();
@@ -18,14 +18,19 @@ public class MemoryBlock {
 		this.size = size;
 	}
 
-	// Retorna o endereço final
+	// Retorna o endereço final do bloco
 	public int getFinalAddress() {
 		return this.initialAddress + this.size - 1;
+	}
+	
+	public void removeNeighbors() {
+		this.rightBlock = null;
+		this.leftBlock = null;
 	}
 
 	@Override
 	public String toString() {
-		return "Endereço inicial: " + this.initialAddress + "; Tamanho: " + this.size + "; Em uso: " + this.inUse + "Endereço Final: " + this.getFinalAddress();
+		return "Endereço inicial: " + this.initialAddress + "; Endereço Final: " + this.getFinalAddress() + "; Tamanho: " + this.size + "; Em uso: " + this.inUse;
 	}
 
 }
