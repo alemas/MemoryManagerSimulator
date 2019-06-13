@@ -2,25 +2,30 @@
 public class MemoryBlock {
 
 	// Representam os blocos adjacentes
-	public MemoryBlock rightBlock = null;
-	public MemoryBlock leftBlock = null;
-	
-	// Representa o endereço inicial e final do bloco
+	public MemoryBlock rightBlock;
+	public MemoryBlock leftBlock;
+
+	// Representa o endereço inicial e tamanho do bloco
 	public int initialAddress;
-	public int finalAddress;
-	
+	public int size;
+
 	// Indica se o bloco está sendo usado ou não
-	public boolean isEmpty = true;
-	
-	public MemoryBlock(int initialAddress, int finalAddress) {
+	public boolean inUse = true;
+
+	public MemoryBlock(int initialAddress, int size) {
 		super();
 		this.initialAddress = initialAddress;
-		this.finalAddress = finalAddress;
+		this.size = size;
 	}
 
-	// Retorna o tamanho do bloco
-	public int getSize() {
-		return finalAddress - initialAddress;
+	// Retorna o endereço final
+	public int getFinalAddress() {
+		return this.initialAddress + this.size - 1;
 	}
-	
+
+	@Override
+	public String toString() {
+		return "Endereço inicial: " + this.initialAddress + "; Tamanho: " + this.size + "; Em uso: " + this.inUse + "Endereço Final: " + this.getFinalAddress();
+	}
+
 }
