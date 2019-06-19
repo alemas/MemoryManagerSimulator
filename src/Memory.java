@@ -64,31 +64,28 @@ public class Memory {
 				MemoryBlock left = currentBlock.leftBlock;
 				
 				// Caso o bloco à esquerda esteja livre, junta com o atual
-				if (left != null && left.inUse) {
+				if (left != null && !left.inUse) {
 					currentBlock.initialAddress = left.initialAddress;
 					currentBlock.size += left.size;
 					
-					//TODO
-//					currentBlock.leftBlock = left.leftBlock;
-//					
-//					if (currentBlock.leftBlock != null) {
-//						currentBlock.leftBlock.rightBlock = currentBlock;
-//					}
+					if (left.leftBlock != null) {
+						left.leftBlock.rightBlock = currentBlock;
+					}
+					
+					currentBlock.leftBlock = left.leftBlock;
 					
 					left.removeNeighbors();
 				}
 				
 				// Caso o bloco à direita esteja livre, junta com o atual
-				if (right != null && right.inUse) {
+				if (right != null && !right.inUse) {
 					currentBlock.size += right.size;
-					currentBlock.rightBlock = right.rightBlock;
+						
+					if (right.rightBlock != null) {
+						right.rightBlock.leftBlock = currentBlock;
+					}
 					
-					//TODO
-//					currentBlock.rightBlock.leftBlock = currentBlock;
-//					
-//					if (currentBlock.rightBlock != null) {
-//						currentBlock.rightBlock.leftBlock = currentBlock;
-//					}
+					currentBlock.rightBlock = right.rightBlock;
 					
 					right.removeNeighbors();
 				}
@@ -104,7 +101,8 @@ public class Memory {
 	public String toString() {
 		String r = "";
 		MemoryBlock currentBlock = this.firstBlock;
-		while(currentBlock != null) { r += "\n" + currentBlock; currentBlock = currentBlock.rightBlock; }
+		int index = 0;
+		while(currentBlock != null) { r += "\nBloco " + index + " - " + currentBlock; currentBlock = currentBlock.rightBlock; index++; }
 		return r;
 	}
 }

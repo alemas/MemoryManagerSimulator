@@ -6,7 +6,7 @@ public class App {
 		MemoryManager memoryManager = FileReader.readFile("data/1");
 //		System.out.println(memoryManager);
 		memoryManager.run();
-		System.out.println(memoryManager);
+		System.out.println("Resultado final:\n" + memoryManager);
 		
 	}
 
