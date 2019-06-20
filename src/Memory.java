@@ -74,6 +74,7 @@ public class Memory {
 					
 					currentBlock.leftBlock = left.leftBlock;
 					
+					// Remove referências do bloco que se juntou ao atual
 					left.removeNeighbors();
 				}
 				
@@ -87,6 +88,7 @@ public class Memory {
 					
 					currentBlock.rightBlock = right.rightBlock;
 					
+					// Remove referências do bloco que se juntou ao atual
 					right.removeNeighbors();
 				}
 				
