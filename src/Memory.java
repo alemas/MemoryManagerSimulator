@@ -48,6 +48,32 @@ public class Memory {
 		return false;
 	}
 	
+	// Método para checar se existe fragmentação externa para certa requisição de memória.
+	// Retorna o tamanho do espaço livre caso haja fragmentação e -1 caso não haja 
+	public int checkForExternalFramentation(int requiredSize) {
+		
+		// Representa o espaço ainda livre na memória
+		int freeSpace = 0;
+		
+		MemoryBlock currentBlock = this.firstBlock;
+		
+		// Percorre os blocos da memória
+		while (currentBlock != null) {
+			
+			// Caso o bloco não esteja alocado, seu tamanho faz parte da fragmentação
+			if (!currentBlock.inUse) { freeSpace += currentBlock.size; }
+			
+			currentBlock = currentBlock.rightBlock;
+		}
+		
+		if (freeSpace >= requiredSize) {
+			return freeSpace;
+		}
+		
+		return -1;
+		
+	}
+	
 	// Método para liberar um bloco de memória de acordo com o seu índice
 	public void freeMemoryBlock(int index) {
 		

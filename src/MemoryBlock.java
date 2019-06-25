@@ -8,6 +8,9 @@ public class MemoryBlock {
 	// Representa o endereço inicial e tamanho do bloco
 	public int initialAddress;
 	public int size;
+	
+	// Representa o id do bloco
+	public int id;
 
 	// Indica se o bloco está sendo usado ou não
 	public boolean inUse = false;
