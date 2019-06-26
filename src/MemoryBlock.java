@@ -1,3 +1,10 @@
+/* 	Autores: Mateus Reckziegel e Fabricio Pujol
+*	Data: 04/06/19
+*
+*	Classe responsável por representar os blocos de uma memória
+*	em forma de lista duplamente encadeada.
+*
+*/
 
 public class MemoryBlock {
 

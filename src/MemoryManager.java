@@ -1,3 +1,13 @@
+/* 	Autores: Mateus Reckziegel e Fabricio Pujol
+*	Data: 04/06/19
+*
+*	Classe responsável por fazer a chamada das operações na memória.
+*	Tem uma fila principal de operações e outra auxiliar para as
+*	operações pendentes de alocação. Toda vez que uma alocação é rejeitada,
+*	verifica-se se houve fragmentação. O resultado de cada operação é impresso na tela.
+*
+*/
+
 import java.util.ArrayList;
 import java.util.Iterator;
 

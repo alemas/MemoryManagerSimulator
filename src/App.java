@@ -1,3 +1,10 @@
+/* 	Autores: Mateus Reckziegel e Fabricio Pujol
+*	Data: 04/06/19
+*
+*	Classe responsável por iniciar a execução e mostrar o resultado final
+*	do simulador.
+*
+*/
 
 public class App {
 

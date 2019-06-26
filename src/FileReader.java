@@ -1,3 +1,12 @@
+/* 	Autores: Mateus Reckziegel e Fabricio Pujol
+*	Data: 04/06/19
+*
+*	Classe responsável por ler o arquivo de entrada e retornar um objeto
+*	da classe MemoryManager com a memória inicial e todas operações prontas para serem
+*	executadas.
+*
+*/
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;

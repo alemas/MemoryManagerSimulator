@@ -1,4 +1,12 @@
+/* 	Autores: Mateus Reckziegel e Fabricio Pujol
+*	Data: 04/06/19
+*
+*	Classe responsável por representar as operações de alocação e liberação de memória
+*	do simulador.
+*
+*/
 
+// Possíveis tipos de operação de memória
 enum OperationType {
 	ALLOC_MEMORY, FREE_MEMORY
 }

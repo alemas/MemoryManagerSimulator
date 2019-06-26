@@ -1,3 +1,14 @@
+/* 	Autores: Mateus Reckziegel e Fabricio Pujol
+*	Data: 11/06/19
+*
+*	Classe responsável por representar uma memória com
+*	blocos de tamanho variável e uso de algoritmo first-fit para alocação.
+*	Uma lista encadeada de objetos do tipo MemoryBlock é usada para representar a memória.
+*	Operações de alocação e liberação são possíveis através
+*	da manipulação dessa lista. É possível também checar por fragmentação
+*	externa para dada operação de alocação.
+*
+*/
 
 public class Memory {
 
@@ -19,7 +30,7 @@ public class Memory {
 		return nextId;
 	}
 	
-	// Método que tenta alocar um espaço na memória
+	// Método que tenta alocar um espaço na memória usando first-fit.
 	// Retorna "true" caso consiga alocar e "false" caso contrário
 	public boolean allocMemory(int requiredSize) {
 		
