@@ -5,12 +5,17 @@ enum OperationType {
 
 public class Operation {
 	
+	// Tipo da operação (se aloca ou libera memória)
 	public OperationType type;
+	
+	// Valor da operação:
+	// Caso seja uma alocação, representa o tamanho que se quer alocar.
+	// Caso seja uma liberação, representa o índice do bloco a ser liberado.
 	public int value;
 	
-	public Operation(OperationType type, int amount) {
+	public Operation(OperationType type, int value) {
 		this.type = type;
-		this.value = amount;
+		this.value = value;
 	}
 	
 	@Override

@@ -9,11 +9,12 @@ public class MemoryBlock {
 	public int initialAddress;
 	public int size;
 	
-	// Representa o id do bloco
-	public int id;
+	// Representa o id do bloco.
+	// Quando o bloco está livre seu id é -1
+	public int id = -1;
 
 	// Indica se o bloco está sendo usado ou não
-	public boolean inUse = false;
+	private boolean inUse = false;
 
 	public MemoryBlock(int initialAddress, int size) {
 		super();
@@ -26,6 +27,17 @@ public class MemoryBlock {
 		return this.initialAddress + this.size - 1;
 	}
 	
+	public boolean getInUse() {
+		return this.inUse;
+	}
+	
+	// Modifica a flag inUse e reseta o id caso esteja sendo liberado
+	public void setInUse(boolean inUse) {
+		if (!inUse) { this.id = -1; }
+		this.inUse = inUse;
+	}
+	
+	// Remove as referências para blocos vizinhos 
 	public void removeNeighbors() {
 		this.rightBlock = null;
 		this.leftBlock = null;
@@ -33,7 +45,9 @@ public class MemoryBlock {
 
 	@Override
 	public String toString() {
-		return "Endereço inicial: " + this.initialAddress + "; Endereço Final: " + this.getFinalAddress() + "; Tamanho: " + this.size + "; Em uso: " + this.inUse;
+		String r = this.inUse ? "Bloco " + this.id : "Livre";
+		r += ": " + this.initialAddress +  " - " + this.getFinalAddress() + "; Tamanho: " + this.size;
+		return r;
 	}
 
 }
