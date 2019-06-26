@@ -187,3 +187,5 @@ Livre: 1000 - 1250; Tamanho: 251
 Operações pendentes:
 Alloc memory - 600
 Alloc memory - 700
+
+Houve fragmentação externa. Espaço livre = 751

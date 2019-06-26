@@ -80,6 +80,7 @@ public class MemoryManager {
 
 	}
 
+	// Faz a verificação de fragmentação externa para dada operação
 	private void printFragmentation(int requiredSize) {
 
 		int fragmentation = this.memory.checkForExternalFramentation(requiredSize);
@@ -130,9 +131,15 @@ public class MemoryManager {
 		if (this.pendingOperations.isEmpty()) {
 			r += "\nNenhuma";
 		} else {
+			int smallestRequiredSize = Integer.MAX_VALUE;
 			for (Operation o : this.pendingOperations) {
 				r += "\n" + o;
+				if (o.value < smallestRequiredSize) {
+					smallestRequiredSize = o.value;
+				}
 			}
+			int fragmentation = this.memory.checkForExternalFramentation(smallestRequiredSize);
+			if (fragmentation != -1) { r += "\n\nHouve fragmentação externa. Espaço livre = " + fragmentation;}
 		}
 		return r;
 	}
