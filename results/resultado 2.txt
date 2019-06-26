@@ -1,0 +1,289 @@
+
+Memória:
+Livre: 0 - 2000; Tamanho: 2001
+
+Operações pendentes:
+Nenhuma
+-------------------------------------------------
+Alloc memory - 200
+
+Bloco 1: 0 - 199; Tamanho: 200
+Livre: 200 - 2000; Tamanho: 1801
+
+-------------------------------------------------
+Alloc memory - 200
+
+Bloco 1: 0 - 199; Tamanho: 200
+Bloco 2: 200 - 399; Tamanho: 200
+Livre: 400 - 2000; Tamanho: 1601
+
+-------------------------------------------------
+Alloc memory - 200
+
+Bloco 1: 0 - 199; Tamanho: 200
+Bloco 2: 200 - 399; Tamanho: 200
+Bloco 3: 400 - 599; Tamanho: 200
+Livre: 600 - 2000; Tamanho: 1401
+
+-------------------------------------------------
+Alloc memory - 200
+
+Bloco 1: 0 - 199; Tamanho: 200
+Bloco 2: 200 - 399; Tamanho: 200
+Bloco 3: 400 - 599; Tamanho: 200
+Bloco 4: 600 - 799; Tamanho: 200
+Livre: 800 - 2000; Tamanho: 1201
+
+-------------------------------------------------
+Alloc memory - 200
+
+Bloco 1: 0 - 199; Tamanho: 200
+Bloco 2: 200 - 399; Tamanho: 200
+Bloco 3: 400 - 599; Tamanho: 200
+Bloco 4: 600 - 799; Tamanho: 200
+Bloco 5: 800 - 999; Tamanho: 200
+Livre: 1000 - 2000; Tamanho: 1001
+
+-------------------------------------------------
+Alloc memory - 200
+
+Bloco 1: 0 - 199; Tamanho: 200
+Bloco 2: 200 - 399; Tamanho: 200
+Bloco 3: 400 - 599; Tamanho: 200
+Bloco 4: 600 - 799; Tamanho: 200
+Bloco 5: 800 - 999; Tamanho: 200
+Bloco 6: 1000 - 1199; Tamanho: 200
+Livre: 1200 - 2000; Tamanho: 801
+
+-------------------------------------------------
+Alloc memory - 200
+
+Bloco 1: 0 - 199; Tamanho: 200
+Bloco 2: 200 - 399; Tamanho: 200
+Bloco 3: 400 - 599; Tamanho: 200
+Bloco 4: 600 - 799; Tamanho: 200
+Bloco 5: 800 - 999; Tamanho: 200
+Bloco 6: 1000 - 1199; Tamanho: 200
+Bloco 7: 1200 - 1399; Tamanho: 200
+Livre: 1400 - 2000; Tamanho: 601
+
+-------------------------------------------------
+Alloc memory - 200
+
+Bloco 1: 0 - 199; Tamanho: 200
+Bloco 2: 200 - 399; Tamanho: 200
+Bloco 3: 400 - 599; Tamanho: 200
+Bloco 4: 600 - 799; Tamanho: 200
+Bloco 5: 800 - 999; Tamanho: 200
+Bloco 6: 1000 - 1199; Tamanho: 200
+Bloco 7: 1200 - 1399; Tamanho: 200
+Bloco 8: 1400 - 1599; Tamanho: 200
+Livre: 1600 - 2000; Tamanho: 401
+
+-------------------------------------------------
+Alloc memory - 200
+
+Bloco 1: 0 - 199; Tamanho: 200
+Bloco 2: 200 - 399; Tamanho: 200
+Bloco 3: 400 - 599; Tamanho: 200
+Bloco 4: 600 - 799; Tamanho: 200
+Bloco 5: 800 - 999; Tamanho: 200
+Bloco 6: 1000 - 1199; Tamanho: 200
+Bloco 7: 1200 - 1399; Tamanho: 200
+Bloco 8: 1400 - 1599; Tamanho: 200
+Bloco 9: 1600 - 1799; Tamanho: 200
+Livre: 1800 - 2000; Tamanho: 201
+
+-------------------------------------------------
+Alloc memory - 200
+
+Bloco 1: 0 - 199; Tamanho: 200
+Bloco 2: 200 - 399; Tamanho: 200
+Bloco 3: 400 - 599; Tamanho: 200
+Bloco 4: 600 - 799; Tamanho: 200
+Bloco 5: 800 - 999; Tamanho: 200
+Bloco 6: 1000 - 1199; Tamanho: 200
+Bloco 7: 1200 - 1399; Tamanho: 200
+Bloco 8: 1400 - 1599; Tamanho: 200
+Bloco 9: 1600 - 1799; Tamanho: 200
+Bloco 10: 1800 - 1999; Tamanho: 200
+Livre: 2000 - 2000; Tamanho: 1
+
+-------------------------------------------------
+Alloc memory - 400
+
+Falhou
+
+-------------------------------------------------
+Free memory - 2
+
+Bloco 1: 0 - 199; Tamanho: 200
+Livre: 200 - 399; Tamanho: 200
+Bloco 3: 400 - 599; Tamanho: 200
+Bloco 4: 600 - 799; Tamanho: 200
+Bloco 5: 800 - 999; Tamanho: 200
+Bloco 6: 1000 - 1199; Tamanho: 200
+Bloco 7: 1200 - 1399; Tamanho: 200
+Bloco 8: 1400 - 1599; Tamanho: 200
+Bloco 9: 1600 - 1799; Tamanho: 200
+Bloco 10: 1800 - 1999; Tamanho: 200
+Livre: 2000 - 2000; Tamanho: 1
+
+Tentando executar operações pendentes...
+
+Alloc memory - 400
+
+Falhou
+
+-------------------------------------------------
+Free memory - 4
+
+Bloco 1: 0 - 199; Tamanho: 200
+Livre: 200 - 399; Tamanho: 200
+Bloco 3: 400 - 599; Tamanho: 200
+Livre: 600 - 799; Tamanho: 200
+Bloco 5: 800 - 999; Tamanho: 200
+Bloco 6: 1000 - 1199; Tamanho: 200
+Bloco 7: 1200 - 1399; Tamanho: 200
+Bloco 8: 1400 - 1599; Tamanho: 200
+Bloco 9: 1600 - 1799; Tamanho: 200
+Bloco 10: 1800 - 1999; Tamanho: 200
+Livre: 2000 - 2000; Tamanho: 1
+
+Tentando executar operações pendentes...
+
+Alloc memory - 400
+
+Falhou
+
+Houve fragmentação externa. Espaço livre = 401
+
+-------------------------------------------------
+Free memory - 6
+
+Bloco 1: 0 - 199; Tamanho: 200
+Livre: 200 - 399; Tamanho: 200
+Bloco 3: 400 - 599; Tamanho: 200
+Livre: 600 - 799; Tamanho: 200
+Bloco 5: 800 - 999; Tamanho: 200
+Livre: 1000 - 1199; Tamanho: 200
+Bloco 7: 1200 - 1399; Tamanho: 200
+Bloco 8: 1400 - 1599; Tamanho: 200
+Bloco 9: 1600 - 1799; Tamanho: 200
+Bloco 10: 1800 - 1999; Tamanho: 200
+Livre: 2000 - 2000; Tamanho: 1
+
+Tentando executar operações pendentes...
+
+Alloc memory - 400
+
+Falhou
+
+Houve fragmentação externa. Espaço livre = 601
+
+-------------------------------------------------
+Free memory - 8
+
+Bloco 1: 0 - 199; Tamanho: 200
+Livre: 200 - 399; Tamanho: 200
+Bloco 3: 400 - 599; Tamanho: 200
+Livre: 600 - 799; Tamanho: 200
+Bloco 5: 800 - 999; Tamanho: 200
+Livre: 1000 - 1199; Tamanho: 200
+Bloco 7: 1200 - 1399; Tamanho: 200
+Livre: 1400 - 1599; Tamanho: 200
+Bloco 9: 1600 - 1799; Tamanho: 200
+Bloco 10: 1800 - 1999; Tamanho: 200
+Livre: 2000 - 2000; Tamanho: 1
+
+Tentando executar operações pendentes...
+
+Alloc memory - 400
+
+Falhou
+
+Houve fragmentação externa. Espaço livre = 801
+
+-------------------------------------------------
+Alloc memory - 400
+
+Falhou
+
+Houve fragmentação externa. Espaço livre = 801
+
+-------------------------------------------------
+Free memory - 3
+
+Bloco 1: 0 - 199; Tamanho: 200
+Livre: 200 - 799; Tamanho: 600
+Bloco 5: 800 - 999; Tamanho: 200
+Livre: 1000 - 1199; Tamanho: 200
+Bloco 7: 1200 - 1399; Tamanho: 200
+Livre: 1400 - 1599; Tamanho: 200
+Bloco 9: 1600 - 1799; Tamanho: 200
+Bloco 10: 1800 - 1999; Tamanho: 200
+Livre: 2000 - 2000; Tamanho: 1
+
+Tentando executar operações pendentes...
+
+Alloc memory - 400
+
+Bloco 1: 0 - 199; Tamanho: 200
+Bloco 11: 200 - 599; Tamanho: 400
+Livre: 600 - 799; Tamanho: 200
+Bloco 5: 800 - 999; Tamanho: 200
+Livre: 1000 - 1199; Tamanho: 200
+Bloco 7: 1200 - 1399; Tamanho: 200
+Livre: 1400 - 1599; Tamanho: 200
+Bloco 9: 1600 - 1799; Tamanho: 200
+Bloco 10: 1800 - 1999; Tamanho: 200
+Livre: 2000 - 2000; Tamanho: 1
+
+Alloc memory - 400
+
+Falhou
+
+Houve fragmentação externa. Espaço livre = 601
+
+-------------------------------------------------
+Free memory - 5
+
+Bloco 1: 0 - 199; Tamanho: 200
+Bloco 11: 200 - 599; Tamanho: 400
+Livre: 600 - 1199; Tamanho: 600
+Bloco 7: 1200 - 1399; Tamanho: 200
+Livre: 1400 - 1599; Tamanho: 200
+Bloco 9: 1600 - 1799; Tamanho: 200
+Bloco 10: 1800 - 1999; Tamanho: 200
+Livre: 2000 - 2000; Tamanho: 1
+
+Tentando executar operações pendentes...
+
+Alloc memory - 400
+
+Bloco 1: 0 - 199; Tamanho: 200
+Bloco 11: 200 - 599; Tamanho: 400
+Bloco 12: 600 - 999; Tamanho: 400
+Livre: 1000 - 1199; Tamanho: 200
+Bloco 7: 1200 - 1399; Tamanho: 200
+Livre: 1400 - 1599; Tamanho: 200
+Bloco 9: 1600 - 1799; Tamanho: 200
+Bloco 10: 1800 - 1999; Tamanho: 200
+Livre: 2000 - 2000; Tamanho: 1
+
+-------------------------------------------------
+Resultado final:
+
+Memória:
+Bloco 1: 0 - 199; Tamanho: 200
+Bloco 11: 200 - 599; Tamanho: 400
+Bloco 12: 600 - 999; Tamanho: 400
+Livre: 1000 - 1199; Tamanho: 200
+Bloco 7: 1200 - 1399; Tamanho: 200
+Livre: 1400 - 1599; Tamanho: 200
+Bloco 9: 1600 - 1799; Tamanho: 200
+Bloco 10: 1800 - 1999; Tamanho: 200
+Livre: 2000 - 2000; Tamanho: 1
+
+Operações pendentes:
+Nenhuma
