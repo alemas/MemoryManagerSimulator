@@ -1,0 +1,287 @@
+
+Memória:
+Livre: 0 - 100; Tamanho: 101
+
+Operações pendentes:
+Nenhuma
+-------------------------------------------------
+Alloc memory - 10
+
+Bloco 1: 0 - 9; Tamanho: 10
+Livre: 10 - 100; Tamanho: 91
+
+-------------------------------------------------
+Alloc memory - 10
+
+Bloco 1: 0 - 9; Tamanho: 10
+Bloco 2: 10 - 19; Tamanho: 10
+Livre: 20 - 100; Tamanho: 81
+
+-------------------------------------------------
+Alloc memory - 10
+
+Bloco 1: 0 - 9; Tamanho: 10
+Bloco 2: 10 - 19; Tamanho: 10
+Bloco 3: 20 - 29; Tamanho: 10
+Livre: 30 - 100; Tamanho: 71
+
+-------------------------------------------------
+Alloc memory - 10
+
+Bloco 1: 0 - 9; Tamanho: 10
+Bloco 2: 10 - 19; Tamanho: 10
+Bloco 3: 20 - 29; Tamanho: 10
+Bloco 4: 30 - 39; Tamanho: 10
+Livre: 40 - 100; Tamanho: 61
+
+-------------------------------------------------
+Alloc memory - 10
+
+Bloco 1: 0 - 9; Tamanho: 10
+Bloco 2: 10 - 19; Tamanho: 10
+Bloco 3: 20 - 29; Tamanho: 10
+Bloco 4: 30 - 39; Tamanho: 10
+Bloco 5: 40 - 49; Tamanho: 10
+Livre: 50 - 100; Tamanho: 51
+
+-------------------------------------------------
+Alloc memory - 10
+
+Bloco 1: 0 - 9; Tamanho: 10
+Bloco 2: 10 - 19; Tamanho: 10
+Bloco 3: 20 - 29; Tamanho: 10
+Bloco 4: 30 - 39; Tamanho: 10
+Bloco 5: 40 - 49; Tamanho: 10
+Bloco 6: 50 - 59; Tamanho: 10
+Livre: 60 - 100; Tamanho: 41
+
+-------------------------------------------------
+Alloc memory - 10
+
+Bloco 1: 0 - 9; Tamanho: 10
+Bloco 2: 10 - 19; Tamanho: 10
+Bloco 3: 20 - 29; Tamanho: 10
+Bloco 4: 30 - 39; Tamanho: 10
+Bloco 5: 40 - 49; Tamanho: 10
+Bloco 6: 50 - 59; Tamanho: 10
+Bloco 7: 60 - 69; Tamanho: 10
+Livre: 70 - 100; Tamanho: 31
+
+-------------------------------------------------
+Alloc memory - 10
+
+Bloco 1: 0 - 9; Tamanho: 10
+Bloco 2: 10 - 19; Tamanho: 10
+Bloco 3: 20 - 29; Tamanho: 10
+Bloco 4: 30 - 39; Tamanho: 10
+Bloco 5: 40 - 49; Tamanho: 10
+Bloco 6: 50 - 59; Tamanho: 10
+Bloco 7: 60 - 69; Tamanho: 10
+Bloco 8: 70 - 79; Tamanho: 10
+Livre: 80 - 100; Tamanho: 21
+
+-------------------------------------------------
+Alloc memory - 10
+
+Bloco 1: 0 - 9; Tamanho: 10
+Bloco 2: 10 - 19; Tamanho: 10
+Bloco 3: 20 - 29; Tamanho: 10
+Bloco 4: 30 - 39; Tamanho: 10
+Bloco 5: 40 - 49; Tamanho: 10
+Bloco 6: 50 - 59; Tamanho: 10
+Bloco 7: 60 - 69; Tamanho: 10
+Bloco 8: 70 - 79; Tamanho: 10
+Bloco 9: 80 - 89; Tamanho: 10
+Livre: 90 - 100; Tamanho: 11
+
+-------------------------------------------------
+Alloc memory - 10
+
+Bloco 1: 0 - 9; Tamanho: 10
+Bloco 2: 10 - 19; Tamanho: 10
+Bloco 3: 20 - 29; Tamanho: 10
+Bloco 4: 30 - 39; Tamanho: 10
+Bloco 5: 40 - 49; Tamanho: 10
+Bloco 6: 50 - 59; Tamanho: 10
+Bloco 7: 60 - 69; Tamanho: 10
+Bloco 8: 70 - 79; Tamanho: 10
+Bloco 9: 80 - 89; Tamanho: 10
+Bloco 10: 90 - 99; Tamanho: 10
+Livre: 100 - 100; Tamanho: 1
+
+-------------------------------------------------
+Alloc memory - 10
+
+Falhou
+
+-------------------------------------------------
+Free memory - 2
+
+Bloco 1: 0 - 9; Tamanho: 10
+Livre: 10 - 19; Tamanho: 10
+Bloco 3: 20 - 29; Tamanho: 10
+Bloco 4: 30 - 39; Tamanho: 10
+Bloco 5: 40 - 49; Tamanho: 10
+Bloco 6: 50 - 59; Tamanho: 10
+Bloco 7: 60 - 69; Tamanho: 10
+Bloco 8: 70 - 79; Tamanho: 10
+Bloco 9: 80 - 89; Tamanho: 10
+Bloco 10: 90 - 99; Tamanho: 10
+Livre: 100 - 100; Tamanho: 1
+
+Tentando executar operações pendentes...
+
+Alloc memory - 10
+
+Bloco 1: 0 - 9; Tamanho: 10
+Bloco 11: 10 - 19; Tamanho: 10
+Bloco 3: 20 - 29; Tamanho: 10
+Bloco 4: 30 - 39; Tamanho: 10
+Bloco 5: 40 - 49; Tamanho: 10
+Bloco 6: 50 - 59; Tamanho: 10
+Bloco 7: 60 - 69; Tamanho: 10
+Bloco 8: 70 - 79; Tamanho: 10
+Bloco 9: 80 - 89; Tamanho: 10
+Bloco 10: 90 - 99; Tamanho: 10
+Livre: 100 - 100; Tamanho: 1
+
+-------------------------------------------------
+Free memory - 4
+
+Bloco 1: 0 - 9; Tamanho: 10
+Bloco 11: 10 - 19; Tamanho: 10
+Bloco 3: 20 - 29; Tamanho: 10
+Livre: 30 - 39; Tamanho: 10
+Bloco 5: 40 - 49; Tamanho: 10
+Bloco 6: 50 - 59; Tamanho: 10
+Bloco 7: 60 - 69; Tamanho: 10
+Bloco 8: 70 - 79; Tamanho: 10
+Bloco 9: 80 - 89; Tamanho: 10
+Bloco 10: 90 - 99; Tamanho: 10
+Livre: 100 - 100; Tamanho: 1
+
+-------------------------------------------------
+Free memory - 6
+
+Bloco 1: 0 - 9; Tamanho: 10
+Bloco 11: 10 - 19; Tamanho: 10
+Bloco 3: 20 - 29; Tamanho: 10
+Livre: 30 - 39; Tamanho: 10
+Bloco 5: 40 - 49; Tamanho: 10
+Livre: 50 - 59; Tamanho: 10
+Bloco 7: 60 - 69; Tamanho: 10
+Bloco 8: 70 - 79; Tamanho: 10
+Bloco 9: 80 - 89; Tamanho: 10
+Bloco 10: 90 - 99; Tamanho: 10
+Livre: 100 - 100; Tamanho: 1
+
+-------------------------------------------------
+Alloc memory - 30
+
+Falhou
+
+-------------------------------------------------
+Free memory - 8
+
+Bloco 1: 0 - 9; Tamanho: 10
+Bloco 11: 10 - 19; Tamanho: 10
+Bloco 3: 20 - 29; Tamanho: 10
+Livre: 30 - 39; Tamanho: 10
+Bloco 5: 40 - 49; Tamanho: 10
+Livre: 50 - 59; Tamanho: 10
+Bloco 7: 60 - 69; Tamanho: 10
+Livre: 70 - 79; Tamanho: 10
+Bloco 9: 80 - 89; Tamanho: 10
+Bloco 10: 90 - 99; Tamanho: 10
+Livre: 100 - 100; Tamanho: 1
+
+Tentando executar operações pendentes...
+
+Alloc memory - 30
+
+Falhou
+
+Houve fragmentação externa. Espaço livre = 31
+
+-------------------------------------------------
+Alloc memory - 20
+
+Falhou
+
+Houve fragmentação externa. Espaço livre = 31
+
+-------------------------------------------------
+Free memory - 9
+
+Bloco 1: 0 - 9; Tamanho: 10
+Bloco 11: 10 - 19; Tamanho: 10
+Bloco 3: 20 - 29; Tamanho: 10
+Livre: 30 - 39; Tamanho: 10
+Bloco 5: 40 - 49; Tamanho: 10
+Livre: 50 - 59; Tamanho: 10
+Bloco 7: 60 - 69; Tamanho: 10
+Livre: 70 - 89; Tamanho: 20
+Bloco 10: 90 - 99; Tamanho: 10
+Livre: 100 - 100; Tamanho: 1
+
+Tentando executar operações pendentes...
+
+Alloc memory - 30
+
+Falhou
+
+Houve fragmentação externa. Espaço livre = 41
+
+Alloc memory - 20
+
+Bloco 1: 0 - 9; Tamanho: 10
+Bloco 11: 10 - 19; Tamanho: 10
+Bloco 3: 20 - 29; Tamanho: 10
+Livre: 30 - 39; Tamanho: 10
+Bloco 5: 40 - 49; Tamanho: 10
+Livre: 50 - 59; Tamanho: 10
+Bloco 7: 60 - 69; Tamanho: 10
+Bloco 12: 70 - 89; Tamanho: 20
+Bloco 10: 90 - 99; Tamanho: 10
+Livre: 100 - 100; Tamanho: 1
+
+-------------------------------------------------
+Free memory - 5
+
+Bloco 1: 0 - 9; Tamanho: 10
+Bloco 11: 10 - 19; Tamanho: 10
+Bloco 3: 20 - 29; Tamanho: 10
+Livre: 30 - 59; Tamanho: 30
+Bloco 7: 60 - 69; Tamanho: 10
+Bloco 12: 70 - 89; Tamanho: 20
+Bloco 10: 90 - 99; Tamanho: 10
+Livre: 100 - 100; Tamanho: 1
+
+Tentando executar operações pendentes...
+
+Alloc memory - 30
+
+Bloco 1: 0 - 9; Tamanho: 10
+Bloco 11: 10 - 19; Tamanho: 10
+Bloco 3: 20 - 29; Tamanho: 10
+Bloco 13: 30 - 59; Tamanho: 30
+Bloco 7: 60 - 69; Tamanho: 10
+Bloco 12: 70 - 89; Tamanho: 20
+Bloco 10: 90 - 99; Tamanho: 10
+Livre: 100 - 100; Tamanho: 1
+
+-------------------------------------------------
+Resultado final:
+
+Memória:
+Bloco 1: 0 - 9; Tamanho: 10
+Bloco 11: 10 - 19; Tamanho: 10
+Bloco 3: 20 - 29; Tamanho: 10
+Bloco 13: 30 - 59; Tamanho: 30
+Bloco 7: 60 - 69; Tamanho: 10
+Bloco 12: 70 - 89; Tamanho: 20
+Bloco 10: 90 - 99; Tamanho: 10
+Livre: 100 - 100; Tamanho: 1
+
+Operações pendentes:
+Nenhuma
